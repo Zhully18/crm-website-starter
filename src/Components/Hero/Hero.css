@@ -1,0 +1,41 @@
+.hero{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+    background: #dbe9db;
+}
+.hero_header{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: #043927;
+}
+.hero p{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #666;
+}
+.hero .btns{
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+.hero .btns button{
+    padding: 1rem 2.5rem;
+    color: white;
+    background: #043927;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.hero .btns button:nth-child(2){
+    background: #157940;
+    color: black;
+}
+.hero .hero_img{
+    width: 800px;
+    margin-top: 40px;
+    height: 400px;
+}

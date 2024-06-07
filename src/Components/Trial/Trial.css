@@ -1,0 +1,31 @@
+.trial_contaienr{
+    margin-top: 40px;
+    display: grid;
+    height: 30vh;
+    width: 90%;
+    place-items: center;
+    background-color: #043927;
+    margin-left: 80px;
+    color: #fff;
+    border-radius: 20px;
+}
+.trial_contaienr .trial{
+    text-align: center;
+}
+.trial_contaienr .trial h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.trial_contaienr .trial p{
+    margin-bottom: 20px;
+}
+.trial_contaienr button{
+    padding: 1rem 2.5rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    background: #159740;
+}
